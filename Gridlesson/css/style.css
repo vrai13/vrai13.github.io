@@ -1,0 +1,32 @@
+body{
+	margin: 0;
+	background-color: #f3f5f7;
+	font-family: 'Arvo', serif;
+}
+.header{
+	font-family: 'Arvo', serif;
+	margin-top: 65px;
+	margin-bottom: 130px;
+	color:#3b3f6a;
+	font-size: 14px;
+}
+.item{
+	width: 210px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+.item h4{
+	color:#606386;
+	font-family: 'Arvo', serif;
+	font-size: 17px;
+
+}
+.item p{
+	color:#686c8b;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+}
