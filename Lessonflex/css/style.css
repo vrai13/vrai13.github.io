@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: 'Bad Script', cursive;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+.item {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  background-color: #aeaeae;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.item:hover {
+  -ms-flex-preferred-size: 90%;
+      flex-basis: 90%;
+}
+.item span {
+  font-size: 2rem;
+  text-shadow: 0px 0px 10px #000;
+}
+
+.item1 {
+  background: url(/img/1.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.item2 {
+  background: url(/img/2.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.item3 {
+  background: url(/img/3.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.item4 {
+  background: url(/img/4.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+@media (max-width: 640px) {
+  .slider {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    height: 100vh;
+  }
+
+  .item {
+    width: 100%;
+  }
+  .item:hover {
+    -webkit-box-flex: 30%;
+        -ms-flex-positive: 30%;
+            flex-grow: 30%;
+  }
+}
