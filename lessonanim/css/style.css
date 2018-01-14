@@ -141,7 +141,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(img/main-bg.jpg) no-repeat center;
+  background: url(/img/main-bg.jpg) no-repeat center;
   background-size: cover;
 }
 .slider h3 {
