@@ -1,0 +1,91 @@
+$font_main:'Kavivanar', cursive;
+
+body{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	margin: 0 auto;
+	max-width: 1366px;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width:1180px;
+	font-family: $font_main;
+	h1{
+		margin-bottom: 5px;
+	}
+}
+.partfolio{
+	margin:0 auto;
+	display:flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: row;
+	max-width:1180px;
+	height: 100vh;
+	
+}
+	.col-wrap{
+		display:flex;
+		max-width:980px;
+		flex-direction:column;
+		align-items:center ;
+	}
+	.item_author{
+
+		display:flex;
+		justify-content:center;
+		align-items: center;
+		flex-direction:column;
+		margin: 10px;
+		width: 370px;
+		height:250px; 
+		background: #fff no-repeat center center;
+		span{
+			font-family: $font_main;
+			font-size: 24px;
+		}
+		p{
+			font-size: 14px;
+			text-transform: uppercase;
+		}
+	}
+.item1{
+		display:flex;
+		justify-content:center;
+		align-items: center;
+		margin: 10px;
+		width: 375px;
+		height:255px;
+		background: url(../img/3.jpg) no-repeat center center;
+		background-size:cover;
+
+	}
+	.item2{
+		display:flex;
+		justify-content:center;
+		align-items: center;
+		margin: 10px;
+		width: 375px;
+		height:255px;
+		background: url(../img/2.jpg) no-repeat center center;
+		background-size:cover;
+	}
+	.item3{
+		display:flex;
+		justify-content:center;
+		align-items: center;
+		margin: 10px;
+		width: 370px;
+		height: 500px;
+		background:url(../img/1.jpg) no-repeat center center;
+		background-size: cover;
+
+	}
+
